@@ -12,6 +12,7 @@ private:
 
 public:
     void setcountObjects(unsigned int CountObjects);
+    unsigned int getCountObject();
 };
 
 
