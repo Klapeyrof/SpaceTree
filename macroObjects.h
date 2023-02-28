@@ -11,7 +11,7 @@ private:
     unsigned int CountObjects;
 
 public:
-    void setcountObjects(unsigned int CountObjects){this->CountObjects = CountObjects;};
+    void setCountObjects(unsigned int CountObjects){this->CountObjects = CountObjects;};
     unsigned int getCountObject(){return CountObjects;};
 };
 

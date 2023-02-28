@@ -1,6 +1,6 @@
 #include "macroObjects.h"
 
-void MacroObject::setcountObjects(unsigned int countObjects){
+void MacroObject::setCountObjects(unsigned int countObjects){
     this->CountObjects = countObjects;
 }
 

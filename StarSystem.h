@@ -5,11 +5,10 @@
 
 class StarSystem: public MacroObject{
 private:
-    // Stars stars[]; //must do it
-    // Planets planets[]
-    unsigned int QuantityLivePlanets;   //планеты, приголные для жизни
+    unsigned int* ObjectIDs = NULL;    //объекты в системе
+    unsigned int QuantityLivePlanets;   //планеты, пригодные для жизни
 public:
-    StarSystem();
+    StarSystem(unsigned int CountObjects, unsigned int* ObjectIDs, unsigned int QuantityLivePlanets);
     ~StarSystem();
 
     void setQuantityLivePlanets(unsigned int QP){this->QuantityLivePlanets = QP;};
