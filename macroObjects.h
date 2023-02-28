@@ -8,7 +8,7 @@ using namespace std;
 
 class  MacroObject: public Object{
 private:
-    unsigned int CountObjects;
+    unsigned int CountObjects=-1;
 
 public:
     void setCountObjects(unsigned int CountObjects){this->CountObjects = CountObjects;};
